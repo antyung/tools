@@ -1,9 +1,9 @@
-# git-tools
+# tools
 
-A collection of common git-tools
+A collection of common tools
 
 ### lddc
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/antyung/git-tools/refs/heads/main/common/lddc | sh -s $(which curl) test
+curl -fsSL https://raw.githubusercontent.com/antyung/tools/refs/heads/main/common/lddc.sh | sh -s $(which curl) test
 ```
