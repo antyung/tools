@@ -13,6 +13,3 @@ curl -fsSL https://raw.githubusercontent.com/antyung/tools/refs/heads/main/commo
 ```sh
 curl -fsSL https://raw.githubusercontent.com/antyung/tools/refs/heads/main/common/system_info.sh | sh
 ```
-```sh
-. <(curl -fsSL https://raw.githubusercontent.com/antyung/tools/refs/heads/main/common/system_info.sh)
-```
