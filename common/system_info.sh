@@ -16,22 +16,6 @@ SYSTEM_DISK_FREE=$(df -h / | awk 'NR==2 {print $4}')
 SYSTEM_DISK_TOTAL=$(df -h / | awk 'NR==2 {print $2}')
 SYSTEM_DISK_USED=$(df -h / | awk 'NR==2 {print $3}')
 
-export SYSTEM_ARCH
-export SYSTEM_KERNEL
-export SYSTEM_OS
-export SYSTEM_CPU_CORES
-export SYSTEM_CPU_PROC
-export SYSTEM_CPU_THREADS
-export SYSTEM_CPU_MODEL
-export SYSTEM_MEMORY_TOTAL
-export SYSTEM_MEMORY_FREE
-export SYSTEM_MEMORY_BUFFERS
-export SYSTEM_SWAP_TOTAL
-export SYSTEM_SWAP_FREE
-export SYSTEM_DISK_FREE
-export SYSTEM_DISK_TOTAL
-export SYSTEM_DISK_USED
-
 echo "System Architecture: ${SYSTEM_ARCH}"
 echo "Kernel Version: ${SYSTEM_KERNEL}"
 echo "Operating System: ${SYSTEM_OS}"
