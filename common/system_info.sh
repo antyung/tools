@@ -1,5 +1,7 @@
 #!/bin/sh
 
+set -exo pipefail
+
 SYSTEM_ARCH=$(uname -m)
 SYSTEM_KERNEL=$(uname -r)
 SYSTEM_OS=$(uname -s)
